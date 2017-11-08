@@ -10,6 +10,7 @@ import org.apache.maven.plugin.MojoFailureException;
  */
 public abstract class AbstractGenModularMojo extends AbstractMojo {
 
+    @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
         generate();
     }

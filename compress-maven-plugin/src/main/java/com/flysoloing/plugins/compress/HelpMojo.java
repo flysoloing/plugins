@@ -1,4 +1,4 @@
-package com.flysoloing.plugins.codegen;
+package com.flysoloing.plugins.compress;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
@@ -17,14 +17,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Codegen Maven Plugin, Help Mojo
+ * Compress Maven Plugin, Help Mojo
  * @author laitao
- * @since 2015-12-07 23:58:01
+ * @since 2017-11-08 14:35:01
  */
 @Mojo(name = "help", requiresProject = false, threadSafe = true)
 public class HelpMojo extends AbstractMojo {
 
-    private static final String PLUGIN_HELP_PATH = "/META-INF/maven/com.flysoloing.plugins/codegen-maven-plugin/plugin-help.xml";
+    private static final String PLUGIN_HELP_PATH = "/META-INF/maven/com.flysoloing.plugins/compress-maven-plugin/plugin-help.xml";
 
     /**
      * 是否展示参数详情，默认不展示

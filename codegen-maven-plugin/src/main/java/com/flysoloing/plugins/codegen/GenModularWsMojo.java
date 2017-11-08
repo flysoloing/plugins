@@ -34,6 +34,7 @@ public class GenModularWsMojo extends AbstractMojo {
     @Parameter(defaultValue = "${project}")
     private MavenProject parentProject;
 
+    @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
         //当前项目必须是一个普通的项目，即packaging不能为pom，war，等等
         if (!parentProject.getPackaging().equals(Constants.JAR_PACKAGING)) {
@@ -101,8 +102,9 @@ public class GenModularWsMojo extends AbstractMojo {
         subProject.setArtifactId(subModuleArtifactId);
         subProject.setVersion(parentProject.getVersion());
         subProject.setPackaging(Constants.JAR_PACKAGING);
-        if (subProjectSuffix.equals(Constants.WEB_SUFFIX))
+        if (subProjectSuffix.equals(Constants.WEB_SUFFIX)) {
             subProject.setPackaging(Constants.WAR_PACKAGING);
+        }
 
         getLog().info("Using following parameters for creating " + subProjectSuffix + " sub module project: ");
         getLog().info("----------------------------------------------------------------------------");

@@ -14,6 +14,7 @@ import org.apache.maven.plugins.annotations.Mojo;
 @Mojo(name = "gen-modular-mvc", threadSafe = true)
 public class GenModularMvcMojo extends AbstractMojo {
 
+    @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
         getLog().info("This goal is running...");
     }

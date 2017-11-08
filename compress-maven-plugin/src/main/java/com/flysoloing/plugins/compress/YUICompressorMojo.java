@@ -14,6 +14,7 @@ import org.apache.maven.plugins.annotations.Mojo;
 @Mojo(name = "YUICompressor", threadSafe = true)
 public class YUICompressorMojo extends AbstractMojo {
 
+    @Override
     public void execute() throws MojoExecutionException, MojoFailureException {
         getLog().info("This goal is running...");
     }
