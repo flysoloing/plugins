@@ -12,6 +12,6 @@
     <packaging>maven-plugin</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>compress-maven-plugin</name>
-    <url>http://maven.apache.org</url>
+    <url>https://github.com/flysoloing/plugins/tree/master/compress-maven-plugin</url>
 
 </project>

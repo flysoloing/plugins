@@ -55,7 +55,7 @@
                     <localGhRepoPluginsPath>D:\DevEnv\repo\plugins</localGhRepoPluginsPath>
                     <!-- ghrepo:help conf -->
                     <detail>true</detail>
-                    <goal>help</goal>
+                    <!--<goal>help</goal>-->
                 </configuration>
                 <executions>
                     <execution>
