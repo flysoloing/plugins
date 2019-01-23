@@ -6,7 +6,7 @@ import org.apache.maven.plugin.MojoFailureException;
 
 /**
  * @author laitao
- * @since 2016-10-26 17:01:11
+ * @date 2016-10-26 17:01:11
  */
 public abstract class AbstractGenModularMojo extends AbstractMojo {
 

@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 目标是在打包或者安装到本地仓库的同时，把相关包同步更新到本地的GitHub仓库
  * @author laitao
- * @since 2015-11-19 23:56:21
+ * @date 2015-11-19 23:56:21
  */
 @Mojo(name = "sync", threadSafe = true, defaultPhase = LifecyclePhase.INSTALL)
 public class GitHubRepoMojo extends AbstractMojo {

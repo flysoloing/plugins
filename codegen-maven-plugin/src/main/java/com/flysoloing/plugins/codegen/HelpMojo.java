@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * Codegen Maven Plugin, Help Mojo
  * @author laitao
- * @since 2015-12-07 23:58:01
+ * @date 2015-12-07 23:58:01
  */
 @Mojo(name = "help", requiresProject = false, threadSafe = true)
 public class HelpMojo extends AbstractMojo {

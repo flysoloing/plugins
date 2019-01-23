@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * GitHub Repo Maven Plugin, Help Mojo
  * @author laitao
- * @since 2015-11-21 00:40:51
+ * @date 2015-11-21 00:40:51
  */
 @Mojo(name = "help", requiresProject = false, threadSafe = true)
 public class HelpMojo extends AbstractMojo {

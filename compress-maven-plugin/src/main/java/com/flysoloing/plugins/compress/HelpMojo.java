@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * Compress Maven Plugin, Help Mojo
  * @author laitao
- * @since 2017-11-08 14:35:01
+ * @date 2017-11-08 14:35:01
  */
 @Mojo(name = "help", requiresProject = false, threadSafe = true)
 public class HelpMojo extends AbstractMojo {
